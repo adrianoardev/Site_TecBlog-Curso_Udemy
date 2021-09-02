@@ -1,0 +1,116 @@
+/* Limpar formatações padrão */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Corpo da página */
+body {
+    font-size: 1em; /* Equivalente a 16px */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+}
+
+
+/* Layout */
+#area-cabecalho {
+    background-color: #f7b600; /* cor de fundo da area de cabeçalho */
+    padding: 15px; /* espaçamento */
+    text-align: center; /* Centralizar os textos */
+}
+
+#area-logo, #area-menu {
+    padding: 10px; /* Espaçamento da area de logo e de menu */
+}
+
+#area-principal {    
+    width: 920px; /* Largura da area principal */
+    margin: 0 auto; /* parte superior e inferior 0 e as laterias automaticas */
+    padding: 15px;
+}
+
+#area-postagens {
+    width: 660px; 
+    float: left;  /* Faz com que o menu lateral fique à esquerda */
+}
+
+#area-lateral {
+    width: 240px;
+    float: right; /* Faz com que o menu lateral fique à direita */
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px; /* Espaçamento inferior */
+    background: white;
+}
+
+.conteudo-lateral {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;    
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+}
+
+/* Formatação do Menu */
+a {
+    text-decoration: none; /* remoção do sublinhado embaixo dos elementos do Menu */
+}
+
+a:link, a:visited { 
+    color: #f7b600;
+}
+
+a:hover { 
+      text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited { 
+    color: #FFF;
+    padding: 8px 12px; /* Espaçamento Superior/Inferior 8px, Espaçamento laterais 12px */
+}
+
+#area-cabecalho a:hover { /* Ao passar o mouse no menu fica laranja e com fundo branco */
+    color: #f7b600; /* Cor do texto ao passar o mouse emcima do menu */
+    background: #FFF;  /* Cor de fundo do menu ao passar o mouse emcima dele */
+    text-decoration: none;  
+}
+
+/* Formatações em geral */
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #f7b600;
+}
+
+h3 {
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
+}
+
+.branco {
+    color: #FFF; /* cor do <span> */
+}
+
+.data-postagem {
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
